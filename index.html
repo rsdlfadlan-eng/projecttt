@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FADLANARSIKATRA | Membangun Masa Depan Melalui Arsitektur Berkelanjutan</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary-container": "#523f67",
+                      "surface-variant": "#dee3e6",
+                      "error-container": "#fa746f",
+                      "surface-container-highest": "#dee3e6",
+                      "on-surface-variant": "#5a6062",
+                      "on-tertiary-fixed-variant": "#5c4871",
+                      "primary-dim": "#3e5282",
+                      "on-surface": "#2d3335",
+                      "primary-fixed-dim": "#96aae0",
+                      "on-error": "#fff7f6",
+                      "on-primary-container": "#203564",
+                      "tertiary-dim": "#5e4b73",
+                      "on-secondary-fixed-variant": "#555b6e",
+                      "on-secondary": "#f9f8ff",
+                      "outline-variant": "#adb3b5",
+                      "primary": "#4a5e8f",
+                      "on-primary": "#f9f8ff",
+                      "on-secondary-container": "#4b5164",
+                      "error-dim": "#67040d",
+                      "on-primary-fixed": "#041e4c",
+                      "primary-fixed": "#a4b8ef",
+                      "surface-container-high": "#e5e9eb",
+                      "on-background": "#2d3335",
+                      "background": "#f8f9fa",
+                      "on-secondary-fixed": "#383f51",
+                      "on-primary-fixed-variant": "#293e6d",
+                      "secondary-container": "#dce2f9",
+                      "outline": "#767c7e",
+                      "surface-dim": "#d5dbdd",
+                      "secondary": "#585f72",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-on-surface": "#9b9d9e",
+                      "secondary-fixed": "#dce2f9",
+                      "surface-tint": "#4a5e8f",
+                      "primary-container": "#a4b8ef",
+                      "surface-bright": "#f8f9fa",
+                      "inverse-surface": "#0c0f10",
+                      "error": "#a83836",
+                      "tertiary": "#6b5780",
+                      "inverse-primary": "#a4b8ef",
+                      "on-tertiary-fixed": "#3e2c52",
+                      "surface-container": "#ebeef0",
+                      "surface-container-low": "#f1f4f5",
+                      "tertiary-fixed-dim": "#d3baea",
+                      "on-tertiary": "#fff6ff",
+                      "tertiary-container": "#e1c8f8",
+                      "on-error-container": "#6e0a12",
+                      "secondary-fixed-dim": "#ced4eb",
+                      "tertiary-fixed": "#e1c8f8",
+                      "surface": "#f8f9fa",
+                      "secondary-dim": "#4c5366"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Plus Jakarta Sans"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 10px 40px -10px rgba(45, 51, 53, 0.04);
+        }
+        .glass-nav {
+            background: rgba(248, 249, 250, 0.8);
+            backdrop-filter: blur(24px);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-sm dark:shadow-none">
+<div class="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center font-['Plus_Jakarta_Sans'] tracking-tight">
+<a class="text-2xl font-bold tracking-tighter text-blue-900 dark:text-white" href="#">FADLANARSIKATRA</a>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center space-x-10">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors" href="#Tentang Kami">Tentang Kami</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors" href="#Layanan">Layanan</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors" href="#Proyek">Proyek</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors" href="#Kontak">Kontak</a>
+</div>
+<a class="bg-primary hover:opacity-80 transition-all duration-300 text-on-primary px-6 py-2.5 rounded-xl text-sm font-semibold tracking-wide" href="#Kontak">
+                Hubungi Kami
+            </a>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Hero Architecture" class="w-full h-full object-cover object-center scale-105 brightness-[0.85]" data-alt="luxury modern skyscraper with glass facade reflecting a clear blue sky at dusk, architectural masterpiece with clean lines" src="pplg.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-3xl">
+<span class="inline-block px-4 py-1.5 mb-6 rounded-full bg-white/10 backdrop-blur-md text-white text-xs font-bold tracking-widest uppercase border border-white/20">
+                    Est. 2026
+                </span>
+<h1 class="text-6xl md:text-8xl font-headline font-extrabold text-white leading-[1.1] tracking-tighter mb-8">
+                    Membangun Masa Depan Melalui Arsitektur Berkelanjutan
+                </h1>
+<div class="flex flex-wrap gap-4">
+<a class="px-8 py-4 bg-gradient-to-br from-primary to-primary-dim text-white rounded-xl font-bold text-lg hover:scale-[0.98] active:scale-95 transition-all editorial-shadow" href="#Kontak">
+                        Konsultasi Sekarang
+                    </a>
+<a class="px-8 py-4 bg-white/10 backdrop-blur-xl border border-white/20 text-white rounded-xl font-bold text-lg hover:bg-white/20 transition-all" href="#Proyek">
+                        Lihat Portfolio
+                    </a>
+</div>
+</div>
+</div>
+</header>
+<!-- Tentang Kami Section -->
+<section class="py-32 bg-surface" id="Tentang Kami">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-7">
+<div class="relative group">
+<img alt="Arsikatra Vision" class="rounded-xl w-full h-[600px] object-cover editorial-shadow group-hover:scale-[1.01] transition-transform duration-500" data-alt="architectural concrete building interior with dramatic shadow play and minimalist industrial design aesthetic" src="Irsyad.jpeg"/>
+<div class="absolute -bottom-10 -right-10 hidden md:block w-64 h-64 bg-primary-container p-8 rounded-xl editorial-shadow">
+<span class="block text-5xl font-headline font-extrabold text-on-primary-container mb-2">18+</span>
+<span class="text-on-primary-container/80 text-sm font-bold tracking-widest uppercase">TAHUN PENGALAMAN</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5">
+<h2 class="text-on-surface-variant font-headline font-bold text-sm tracking-[0.2em] uppercase mb-4">Visi &amp; Filosofi</h2>
+<h3 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight mb-8">Kurasi Ruang, Definisi Identitas.</h3>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8 font-body">
+                        Arsikatra lahir dari keinginan untuk mendefinisikan kembali bagaimana manusia berinteraksi dengan ruang. Kami bukan sekadar biro arsitektur; kami adalah kurator pengalaman yang memadukan fungsionalitas dengan estetika kontemporer Indonesia.
+                    </p>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-10 font-body">
+                        Setiap garis yang kami tarik adalah komitmen terhadap keberlanjutan lingkungan dan kemajuan peradaban urban. Kami percaya bahwa arsitektur adalah puisi yang terwujud dalam struktur konkret.
+                    </p>
+<div class="flex gap-12">
+<div>
+<div class="text-3xl font-headline font-bold text-primary mb-1">150+</div>
+<div class="text-xs font-bold text-on-surface-variant tracking-widest uppercase">PROYEK SELESAI</div>
+</div>
+<div>
+<div class="text-3xl font-headline font-bold text-primary mb-1">24</div>
+<div class="text-xs font-bold text-on-surface-variant tracking-widest uppercase">PENGHARGAAN</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Layanan Section -->
+<section class="py-32 bg-surface-container" id="Layanan">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-20">
+<h2 class="text-on-surface-variant font-headline font-bold text-sm tracking-[0.2em] uppercase mb-4">Layanan Kami</h2>
+<h3 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight">Solusi Desain End-to-End</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Arsitektur -->
+<div class="bg-surface-container-lowest p-10 rounded-xl editorial-shadow hover:translate-y-[-8px] transition-all duration-300">
+<div class="w-16 h-16 bg-primary-container flex items-center justify-center rounded-xl mb-8">
+<span class="material-symbols-outlined text-on-primary-container text-3xl" data-icon="architecture">architecture</span>
+</div>
+<h4 class="text-2xl font-headline font-bold text-on-surface mb-4">Arsitektur</h4>
+<p class="text-on-surface-variant leading-relaxed">
+                        Desain bangunan ikonik yang mengutamakan harmoni antara alam, fungsi, dan inovasi struktural yang berkelanjutan.
+                    </p>
+</div>
+<!-- Desain Interior -->
+<div class="bg-surface-container-lowest p-10 rounded-xl editorial-shadow hover:translate-y-[-8px] transition-all duration-300">
+<div class="w-16 h-16 bg-tertiary-container flex items-center justify-center rounded-xl mb-8">
+<span class="material-symbols-outlined text-on-tertiary-container text-3xl" data-icon="chair">chair</span>
+</div>
+<h4 class="text-2xl font-headline font-bold text-on-surface mb-4">Desain Interior</h4>
+<p class="text-on-surface-variant leading-relaxed">
+                        Kurasi ruang dalam yang personal dan mewah, menggabungkan material premium dengan kenyamanan ergonomis maksimal.
+                    </p>
+</div>
+<!-- Manajemen Proyek -->
+<div class="bg-surface-container-lowest p-10 rounded-xl editorial-shadow hover:translate-y-[-8px] transition-all duration-300">
+<div class="w-16 h-16 bg-secondary-container flex items-center justify-center rounded-xl mb-8">
+<span class="material-symbols-outlined text-on-secondary-container text-3xl" data-icon="account_tree">account_tree</span>
+</div>
+<h4 class="text-2xl font-headline font-bold text-on-surface mb-4">Manajemen Proyek</h4>
+<p class="text-on-surface-variant leading-relaxed">
+                        Pengawasan ketat terhadap kualitas dan waktu pelaksanaan untuk memastikan setiap visi terbangun dengan presisi sempurna.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Proyek Section (Bento Portfolio) -->
+<section class="py-32 bg-surface" id="Proyek">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-2xl">
+<h2 class="text-on-surface-variant font-headline font-bold text-sm tracking-[0.2em] uppercase mb-4">Portfolio Unggulan</h2>
+<h3 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight">Mewujudkan Imajinasi Menjadi Realitas.</h3>
+</div>
+<button class="flex items-center gap-3 text-primary font-bold group">
+                    Semua Proyek 
+                    <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-full md:h-[1000px]">
+<div class="md:col-span-8 group relative overflow-hidden rounded-xl">
+<img alt="Villa Project" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="ultra-modern luxury villa with infinity pool at dusk, clean architectural lines and warm interior lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBw1HbhiFb4Mq6Ou_f2b5zcU-34li8NRn4YJEEzFdL-bikHc4hShatneFnOzUaW_bEFyYnVokcluOmSzJ4xt6m9rsn6h75qRpJFQVORKHWsmv_O2NA0OkSJbI4_zVTpCV0hsYo3q5rR72Bf3P7cSTqSmhwYYR2cqKFMuAiCtRGHd_E0qXeOhMML4A7DNyHmzQRaD9LLN8NTgJjd1yht7GnMu3yAMKjFO_yWr72qON8bI3qW5HaAiaozkB2DiLQ3buQtuC-SyVGyoA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-10">
+<span class="text-primary-fixed-dim font-bold tracking-widest uppercase text-sm mb-2">Residential</span>
+<h4 class="text-3xl font-headline font-bold text-white mb-4">Villa Lumière, Bali</h4>
+<p class="text-white/80 max-w-md">Integrasi tropis modern dengan sirkulasi udara alami dan pencahayaan cerdas.</p>
+</div>
+</div>
+<div class="md:col-span-4 group relative overflow-hidden rounded-xl">
+<img alt="Office Project" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="contemporary minimalist office interior with white furniture and indoor plants, soft natural light through large windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU53U4rA78CZTBtVYqT0u7rnD8Oz6smw9FIgVUv4G22Cd_E75pU3HLZjJIeSadTjBkqoMaYaaCTc_dnaxBTLrtG__kEVS_D2E2T93yMDQMQhTGOCe_4RWaDAF3rcIVvfdwwW0nsr910g1o2v7VqYFPMmwuFDViPU8zcFdjsWR1ZedVqhgcSmy0LH0VdgcNChcIFBxmYSTjmpztpEXDG9vsyPV0cukq9G-m88SZjjx9Mly81oTwlMbTPTNm7CVqPbltBRntm428oQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+<span class="text-primary-fixed-dim font-bold tracking-widest uppercase text-sm mb-2">Commercial</span>
+<h4 class="text-2xl font-headline font-bold text-white">NEXUS HQ, Jakarta</h4>
+</div>
+</div>
+<div class="md:col-span-4 group relative overflow-hidden rounded-xl">
+<img alt="Cultural Project" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="architectural close-up of geometric concrete building with sharp angles against a clear sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJ6sz8DEdTUHp_jNIQsTY2GJ6PpE5ALfxSgWY_YmmRWGrg1b6-KfDdJ2Gumx2wlJyw8FVSmlDUETPDm6N2hIb6En7wzIgTb_SQDwA1EaHB_usBtnIQc-Q0lJzCLH7Esz36kQJFmi09IUtV_D8dqN6MRKaREQur_3B5Q9PB2W9MYuC426pCdUbOqF_DpqT8EosRfwBE2VIT6l0ZOaMOyppGsXQMYhIaH7AJAvZvI8iCetTAAkNf5s-hjLaLT-gQRsuDQz5_242Sxw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+<span class="text-primary-fixed-dim font-bold tracking-widest uppercase text-sm mb-2">Cultural</span>
+<h4 class="text-2xl font-headline font-bold text-white">The Mono Pavilion</h4>
+</div>
+</div>
+<div class="md:col-span-8 group relative overflow-hidden rounded-xl">
+<img alt="Luxury Home" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="stunning coastal modern mansion with expansive deck and panoramic ocean views during sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAaCqnhvza4Ec73VHpY30xXN_jE3yVkmePwew4YOjFItjv_AXZCF-Y6vdwRpam_BJT3nwsTV8eKwCUROqySHJw_2zm4hBcoumw0Vr1jR4Z1d0bGrP-MTF5Evptr_os5bNolhm-GPc9jnRoToESx1yKd1Aeb9P8f035lgXzJ1hR2TG2_pBBiOa7x1KydEJverXIo4qp1spzD4aDiYyFmMBn9pOTACIc9nSen8KtE2QvQHc5UQ5hOpodV_ZeoYmig-sT_Sx1ja363Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-10">
+<span class="text-primary-fixed-dim font-bold tracking-widest uppercase text-sm mb-2">Hospitality</span>
+<h4 class="text-3xl font-headline font-bold text-white mb-4">Azure Coast Resort</h4>
+<p class="text-white/80 max-w-md">Keseimbangan antara privasi eksklusif dan keterbukaan terhadap lanskap laut.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Kontak Section -->
+<section class="py-32 bg-surface-container-low" id="Kontak">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div>
+<h2 class="text-on-surface-variant font-headline font-bold text-sm tracking-[0.2em] uppercase mb-4">Mari Berdiskusi</h2>
+<h3 class="text-5xl font-headline font-bold text-on-surface mb-10 leading-tight">Punya Proyek di Pikiran Anda?</h3>
+<div class="space-y-8">
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-xl shrink-0">
+<span class="material-symbols-outlined text-primary" data-icon="location_on">location_on</span>
+</div>
+<div>
+<h5 class="text-lg font-headline font-bold text-on-surface mb-1">Kantor Utama</h5>
+<p class="text-on-surface-variant leading-relaxed">
+                                    Jl. Kh.Ahmad dahlan No. 13, Kumantan bawah, Kampar<br/>Riau  Indonesia, 12110
+                                </p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-xl shrink-0">
+<span class="material-symbols-outlined text-primary" data-icon="mail">mail</span>
+</div>
+<div>
+<h5 class="text-lg font-headline font-bold text-on-surface mb-1">Email</h5>
+<p class="text-on-surface-variant">FADLANARSIKATRA@Gmail.com</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-xl shrink-0">
+<span class="material-symbols-outlined text-primary" data-icon="call">call</span>
+</div>
+<div>
+<h5 class="text-lg font-headline font-bold text-on-surface mb-1">Telepon</h5>
+<p class="text-on-surface-variant">+62 853 6356 5081</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-10 md:p-12 rounded-xl editorial-shadow">
+<form action="#" class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant tracking-widest uppercase ml-1">Nama Lengkap</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl focus:ring-2 focus:ring-primary/20 py-4 px-6 text-on-surface placeholder:text-outline/50" placeholder="Masukkan nama" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant tracking-widest uppercase ml-1">Email</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl focus:ring-2 focus:ring-primary/20 py-4 px-6 text-on-surface placeholder:text-outline/50" placeholder="nama@email.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant tracking-widest uppercase ml-1">Tipe Proyek</label>
+<select class="w-full bg-surface-container-low border-none rounded-xl focus:ring-2 focus:ring-primary/20 py-4 px-6 text-on-surface">
+<option>Pilih Tipe Proyek</option>
+<option>Residensial</option>
+<option>Komersial</option>
+<option>Interior</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant tracking-widest uppercase ml-1">Pesan</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-xl focus:ring-2 focus:ring-primary/20 py-4 px-6 text-on-surface placeholder:text-outline/50" placeholder="Ceritakan proyek Anda..." rows="5"></textarea>
+</div>
+<button class="w-full bg-primary hover:bg-primary-dim text-on-primary py-5 rounded-xl font-bold text-lg shadow-lg transition-all active:scale-[0.98]" type="submit">
+                            Kirim Pesan
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-900 border-t-0 font-['Inter'] text-sm leading-relaxed">
+<div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div>
+<span class="text-xl font-bold text-blue-900 dark:text-white mb-4 block">FADLANARSIKATRA</span>
+<p class="text-slate-500 dark:text-slate-400 max-w-sm mb-6">
+                    Menghadirkan keunggulan arsitektur melalui desain yang bermakna dan berkelanjutan untuk masa depan yang lebih baik.
+                </p>
+<div class="flex gap-4">
+<a class="text-slate-500 hover:text-blue-900 transition-colors" href="#"><span class="material-symbols-outlined" data-icon="language">language</span></a>
+<a class="text-slate-500 hover:text-blue-900 transition-colors" href="#"><span class="material-symbols-outlined" data-icon="share">share</span></a>
+</div>
+</div>
+<div class="flex flex-col md:items-end gap-6">
+<div class="flex flex-wrap gap-8">
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 transition-colors" href="#">Kebijakan Privasi</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 transition-colors" href="#">Syarat &amp; Ketentuan</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-200 transition-colors" href="#">Karir</a>
+</div>
+<p class="text-slate-500 dark:text-slate-400">© 2026 FadlanArsikatra Indonesia. Seluruh Hak Cipta Dilindungi.</p>
+</div>
+</div>
+</footer>
+</body></html>
